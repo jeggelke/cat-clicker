@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#cat {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#cat-container{
+}
+
+#game-container {
+	height: 100%;
+	background-color: #e3e3e3;
+}
+
+#combat-section {
+	height: 100%;
+
+	background-color: rgba(136, 136, 0, .3);
+	border-right: 2px solid black;
+}
+
+#menu-section {
+	height: 100%;
+	background-color: rgba(0,135,135, .2);
+}
+
+#top-menu{
+	border-bottom: 1px solid black;
+}
+
+.menu-choice {
+	padding: 20px;
+	border-right: 1px solid black;
+}
+
+.menu-choice:nth-child(3) {
+	border-right: none;
+}
+
+#ability-menu {
+	margin-top:10px;
+	height: 100%;
+}
+
+#abilities {
+	height: 70%;	
+}
+
+.ability-button{
+	height: 15%;
+	margin-top: 10px;
+	line-height: 100%;
+	margin-bottom: 10px;
+	border: 1px solid black;
+}
+
+.vertical-center {
+    height: 100px;
+    line-height: calc(100% * height);
+}
+
+#run-button {
+}
