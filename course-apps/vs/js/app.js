@@ -54,5 +54,5 @@ if (divHeights[0] < divHeights[1]){
 } else {containerHeight = divHeights[1]};
 console.log(containerHeight);
 $('.image-container').css('height', containerHeight);
-}, 1)
+}, 500)
 })

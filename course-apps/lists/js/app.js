@@ -111,5 +111,5 @@ var containerHeight;
 containerHeight = divHeights[0];
 console.log(containerHeight);
 $('.cat-container').css('max-height', containerHeight);
-}, 50)
+}, 500)
 })
