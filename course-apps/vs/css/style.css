@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#cat {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cat-container{
+	width: 50%;
+	float: left;
+}
+
+.cat-name {
+	text-align: center;
+}
+
+.image-container {
+	overflow: hidden;
+}
+
+.cat-score {
+	text-align: center;
+}
