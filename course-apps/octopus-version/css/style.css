@@ -1,0 +1,62 @@
+body {
+	margin: 20px 0px;
+	padding: 0;
+}
+
+ul {
+	margin-right: 40px;
+	margin-left: 40px;
+	padding-left: 0px;
+}
+
+li {
+	list-style: none;
+	border: 1px solid black;
+}
+
+li:nth-child(1n+2) {
+	border-top: none;
+}
+
+#cat {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cat-container{
+	overflow: hidden;
+	width: 70%;
+	float: left;	
+}
+
+#cat-info {
+	text-align: center;
+}
+
+.cat-name {
+	text-align: center;
+}
+
+.cat-score {
+	text-align: center;
+}
+
+#cat-image {
+	max-width: 40%;
+	margin-left: 15%;
+}
+
+#cat-list {
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+
+.cat-item {
+	padding-top: 10px;
+}
+
+#image-container {
+
+}
+
