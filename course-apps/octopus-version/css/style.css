@@ -8,9 +8,10 @@ ul {
 	margin-left: 40px;
 	padding-left: 0px;
 }
-
 li {
 	list-style: none;
+}
+li.cat-item {
 	border: 1px solid black;
 }
 
@@ -60,3 +61,15 @@ li:nth-child(1n+2) {
 
 }
 
+#admin-button {
+
+
+}
+
+#cat-name-area {
+	width: 100%;
+}
+
+#admin-area ul{
+	display: none;
+}

@@ -47,6 +47,9 @@ var catInfo = [];
 			model.init();
 			listView.init();
 			imageView.init();
+				var catListHeight = $('#cat-list').height();
+				$('#outer-container').height(catListHeight);
+
 		}
 		
 	}
@@ -90,5 +93,12 @@ var catInfo = [];
 				imageView.render(this.catNumber);
 		}
 	}
+/*	
+	var adminView = {
+		render: function(){
+			
+		}
+	}
+*/
 	octopus.init();
 })
